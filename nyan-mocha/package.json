@@ -1,0 +1,19 @@
+{
+  "name": "nyan-karma",
+  "engines": {
+    "node": ">=18.20.4 <19",
+    "npm": ">=10"
+  },
+  "scripts": {
+    "skipped": "mocha skipped.spec.js",
+    "success": "mocha success.spec.js",
+    "failed": "mocha failed.spec.js"
+  },
+  "mocha": {
+    "reporter": "nyan"
+  },
+  "dependencies": {
+    "karma-nyan-reporter": "^0.2.5",
+    "mocha": "^11.0.1"
+  }
+}
