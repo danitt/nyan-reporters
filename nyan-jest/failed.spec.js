@@ -1,5 +1,5 @@
-import { describe, expect, it } from "vitest";
-import { tests } from "./index.ts";
+const { describe, expect, it } = require("@jest/globals");
+const { tests } = require("./index");
 
 describe("failed", () => {
   it.each(tests)("runs test number %s", async (num, delay) => {

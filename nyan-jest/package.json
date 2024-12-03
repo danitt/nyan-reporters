@@ -1,0 +1,16 @@
+{
+  "name": "nyan-jest",
+  "engines": {
+    "node": ">=18.20.4 <19",
+    "npm": ">=10"
+  },
+  "scripts": {
+    "skipped": "jest skipped",
+    "success": "jest success",
+    "failed": "jest failed"
+  },
+  "dependencies": {
+    "jest": "^29.7.0",
+    "jest-nyancat-reporter": "^1.0.0"
+  }
+}

@@ -1,12 +1,9 @@
-# nyan-vitest
-
-## Requirements
-- [Bun](https://bun.sh/docs/installation)
+# nyan-jest
 
 ## Quick Start
 ```bash
 # Setup
-npm i --force
+npm i
 
 # Run different test conditions
 npm run success

@@ -1,7 +1,10 @@
 {
   "name": "nyan-vitest",
-  "module": "index.ts",
   "type": "module",
+  "engines": {
+    "node": ">=18.20.4 <19",
+    "npm": ">=10"
+  },
   "scripts": {
     "skipped": "vitest skipped",
     "success": "vitest success",
@@ -10,7 +13,7 @@
   "dependencies": {
     "@types/bun": "latest",
     "typescript": "^5.0.0",
-    "vitest": "^2.1.8",
+    "vitest": "^0.27.2",
     "vitest-nyancat-reporter": "^1.0.0"
   }
 }
