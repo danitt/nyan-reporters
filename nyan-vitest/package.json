@@ -1,0 +1,16 @@
+{
+  "name": "nyan-vitest",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "skipped": "vitest skipped",
+    "success": "vitest success",
+    "failed": "vitest failed"
+  },
+  "dependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.0.0",
+    "vitest": "^2.1.8",
+    "vitest-nyancat-reporter": "^1.0.0"
+  }
+}
